@@ -1,26 +1,26 @@
 class Inky < Formula
   desc "Transform email templates into email-safe HTML"
   homepage "https://github.com/foundation/inky"
-  version "2.0.0-beta.4"
+  version "2.0.0-beta.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/foundation/inky/releases/download/v2.0.0-beta.4/inky-aarch64-apple-darwin.tar.gz"
-      sha256 "154a4b04eaa5d6259de61e3d30903f08b089c2c5ee3867b95f44685a3ea00e39"
+      url "https://github.com/foundation/inky/releases/download/v2.0.0-beta.5/inky-aarch64-apple-darwin.tar.gz"
+      sha256 "549ed1d6c9d8ed67523c2c0f802c90996b9a72568637bc6d2a6b9fb42db5deb2"
     else
-      url "https://github.com/foundation/inky/releases/download/v2.0.0-beta.4/inky-x86_64-apple-darwin.tar.gz"
-      sha256 "59fc3675f528d689662cee54081d049ff3b0bc58faf08d6f801cabfdc1fcf1c8"
+      url "https://github.com/foundation/inky/releases/download/v2.0.0-beta.5/inky-x86_64-apple-darwin.tar.gz"
+      sha256 "c2eb9f3467201baabfd89276654f7f774b1ec0f3bd87c7460594b5b7276498c9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/foundation/inky/releases/download/v2.0.0-beta.4/inky-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6fb173d01bd68c025292ace04a863a9c4e2259a9a54777b2c9973f9552530799"
+      url "https://github.com/foundation/inky/releases/download/v2.0.0-beta.5/inky-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c96ab3095fcfc965b63af94c0f6d59c7ba8c5d95ca1e6421a94a51a82b3a2b80"
     else
-      url "https://github.com/foundation/inky/releases/download/v2.0.0-beta.4/inky-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "eaa05d82f8045fd2d7c8bd44fbbc7a31d19c3b75c4f77f3a02df778616e625ae"
+      url "https://github.com/foundation/inky/releases/download/v2.0.0-beta.5/inky-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "67f316eab02d3dafca3ce90fb0b86cbca20459177236f4a40de8dedf5da3cb5f"
     end
   end
 
